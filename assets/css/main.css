@@ -85,7 +85,8 @@
 		}
 
 	h3 {
-		font-size: 1.35em;
+		font-size: 1.7em;
+		font-weight: 50;
 	}
 
 	h4 {
@@ -608,6 +609,22 @@
 				background: rgb(47,47,47);
 				
 			}
+			.aboutus{
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 5em;
+				margin-bottom: 1em;
+				padding: 3em;
+				width: 80%;
+				position: relative;
+				background: rgb(47,47,47);
+				column-count: 3;
+				column-gap: 40px;
+      			column-rule-style: none;
+      			color: #c3c3c3;
+
+			}
+
 			.select{
 				margin-left: auto;
 				margin-right: auto;
@@ -616,7 +633,7 @@
 				padding: 0;
 				width: 95%;
 				position: relative;
-				//text-align: center;
+				text-align: center;
 				background: #f2f2f2;
 				}
 			
