@@ -622,6 +622,13 @@
 				column-gap: 40px;
       			column-rule-style: none;
       			color: #c3c3c3;
+      			-webkit-column-count: 3; 
+                -moz-column-count: 3; 
+                -webkit-column-gap: 40px;
+                -moz-column-gap: 40px; 
+                -webkit-column-rule-style: none; 
+                -moz-column-rule-style: none; 
+    
 
 			}
 
