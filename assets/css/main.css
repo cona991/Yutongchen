@@ -512,14 +512,16 @@
     			background-color: rgb(47,47,47);
     			position: relative;
     			display: flex;
+    			overflow: hidden;
             }
 
             .films{
-            	display: flex;
+            	//display: flex;
             	text-align: center;
             	flex-wrap: wrap;
 				justify-content: flex-start;
-				width: 25%;
+				width: 20%;
+				overflow: hidden;
             }
 
 			.films img{
