@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600");
+
 
 
 
@@ -419,7 +419,11 @@
 		}
 
 		
-/* Main */
+   #header {
+			background: #000000;
+			padding: 1.15em 3.5em;
+			text-align: right;
+		}
 
 	#main {
 		background: #f1f1f1;

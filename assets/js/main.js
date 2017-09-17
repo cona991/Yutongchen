@@ -53,50 +53,7 @@
 
 			});
 
-			$('.userinfo').each(function() {
-
-				var	$userinfo = $(this),
-					$Login = $userinfo.find('.Login');
-
-
-				// Poptrox.
-					$Login.poptrox({
-						usePopupCaption: true
-					});
-
-					
-
-				// Tabs.
-					$userinfo.each( function() {
-
-						//var $this = $(this),
-							//$tabs = $this.find('.tabs a'),
-							$page = $this.find('.page');
-
-						$tabs.on('click', function(e) {
-
-							//var $this = $(this),
-								//tag = $this.data('tag');
-
-							
-
-							// Hide media that do not have the same class as the clicked tab.
-								$page
-									.fadeOut('fast')
-									.each(function() {
-
-										var $this = $(this);
-
-										
-
-									});
-
-						});
-
-					});
-
-
-			});
+			
 
 
 
