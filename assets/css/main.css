@@ -192,27 +192,8 @@
 
 
 
-/* Gallery */
-	.morefilm{
-    margin-top: 4em;
-    padding: 2em;
-    text-align: center;
-    background-color: rgb(47,47,47);
-    display: flex;
-   
-	}
 
-	.films img{
-		margin: 1em;
-		transition: transform 0.2s ease-in-out;
-	}
-
-	.films:hover img {
-					
-					transform: scale(1.075);
-				}
-
-
+	
 	
 
 	@keyframes gallery {
@@ -514,13 +495,47 @@
 				margin-right: auto;
 				padding:1em;
 				margin-top: 3em;
-				width:100%;
-				
+				width: 100%;
 				position: relative;
 				text-align: center;
 				background: rgb(47,47,47);
+
 				
 			}
+
+
+			.morefilm{
+
+   				margin-top: 4em;
+   				padding: 0;
+    			text-align: center;
+    			background-color: rgb(47,47,47);
+    			position: relative;
+    			display: flex;
+            }
+
+            .films{
+            	display: flex;
+            	text-align: center;
+            	flex-wrap: wrap;
+				justify-content: flex-start;
+				width: 25%;
+            }
+
+			.films img{
+				margin: 1em;
+				transition: transform 0.2s ease-in-out;
+				width: 15em;
+				height: 10em;
+
+			}
+
+			.films:hover img {
+				vertical-align: middle;	
+				transform: scale(1.075);
+			}
+
+
 
 			.youtube{
 				position: relative;

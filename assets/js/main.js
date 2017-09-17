@@ -26,28 +26,16 @@
 					$content = $gallery.find('.content');
 
 
-				// Poptrox.
 					$content.poptrox({
 						usePopupCaption: true
 					});
 
-					
-
-				// Tabs.
 					$gallery.each( function() {
 
-						//var $this = $(this),
-							//$tabs = $this.find('.tabs a'),
 							$media = $this.find('.media');
 
 						$tabs.on('click', function(e) {
 
-							//var $this = $(this),
-								//tag = $this.data('tag');
-
-							
-
-							// Hide media that do not have the same class as the clicked tab.
 								$media
 									.fadeOut('fast')
 									.each(function() {
